@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid | Fraction</title>
+
+    <style>
+
+        html, body {
+
+            margin: 0;
+            padding: 0;
+            background-color: #dddddd;
+        }
+
+        .container {
+
+            width: 60%;
+            margin: 50px auto;
+            display: grid;
+
+            grid-template-columns: 1fr 2fr 3fr;
+        }
+
+        .item {
+
+            background-color: purple;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .item:nth-child(even) {
+
+            background-color: gold;
+        }
+
+        p {
+
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+
+    </div>
+
+    <p>
+        DENGAN MENGGUNAKAN CSSG GRID DAN SATUAN FR (FRACTION)<br>
+        MAKA CSS GRID AKAN ME-RESPONSIVE-KAN HALAMAN WEBSITE<br>
+        SECARA OTOMATIS.
+    </p>
+
+
+</body>
+</html>

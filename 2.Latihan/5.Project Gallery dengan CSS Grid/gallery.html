@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid | Gallery</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            
+            background-color: rgb(194, 192, 192);
+            text-align: center;
+            margin: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+
+            text-shadow: 3px 3px 2px white;
+        }
+
+        .gallery {
+
+            width: 80%;
+            margin: 20px auto;
+            border: 10px solid white;
+            list-style: none;
+            box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 5px;
+            }
+
+        img {
+
+            display: block;
+            width: 100%;
+        }
+
+        
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Gallery</h2>
+
+    <ul class="gallery">
+
+        <li><img src="img/1cat.jpg" alt="Cat"></li>
+        <li><img src="img/2train.jpg" alt="Train"></li>
+        <li><img src="img/3zebra.jpg" alt="Zebra"></li>
+        <li><img src="img/4woman.jpg" alt="Woman"></li>
+        <li><img src="img/5microphone.jpg" alt="Microphone"></li>
+        <li><img src="img/6buildings.jpg" alt="Buildings"></li>
+        <li><img src="img/7bust.jpg" alt="Bust"></li>
+        <li><img src="img/8saltburn.jpg" alt="Saltburn"></li>
+        <li><img src="img/9screen.jpg" alt="Screen"></li>
+        <li><img src="img/10impala.jpg" alt="Impala"></li>
+
+    </ul>
+
+</body>
+</html>

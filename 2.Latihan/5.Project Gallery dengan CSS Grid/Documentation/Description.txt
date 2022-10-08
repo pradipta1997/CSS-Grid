@@ -1,0 +1,8 @@
+Responsive Gallery Box with CSS Grid using autofit functions on grid
+
+Program Language : HTML5, CSS Grid
+Code Editor	 : Visual Studio 2020
+Font Face	 : Sans-serif
+Image Source	 : Pixabay.com
+Music By	 : Beethoven
+Category	 : Front-End
